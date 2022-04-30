@@ -18,7 +18,7 @@ public class StepDef2
 	@When("i entered a value and verify title")
 	public void method4(DataTable dt) throws Exception
 	{
-		//Take data from DataTable
+		//Take data from DataTable to 
 		List<Map<String,String>> l=dt.asMaps();
 		for(int i=0; i<l.size(); i++)
 		{
