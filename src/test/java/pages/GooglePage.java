@@ -13,8 +13,6 @@ public class GooglePage
 	//Locators of element as properties in page class
 	@FindBy(name="q")
 	private WebElement serachbox;
-	
-	
 	//Constructor method
 	public GooglePage(RemoteWebDriver driver)
 	{
