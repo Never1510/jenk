@@ -34,7 +34,6 @@ public class StepDef2
 			sh.driver.navigate().back();
 		}
 	}
-
 	@When("close site")
 	public void method5()
 	{
