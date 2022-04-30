@@ -14,6 +14,7 @@ public class GooglePage
 	@FindBy(name="q")
 	private WebElement serachbox;
 	
+	
 	//Constructor method
 	public GooglePage(RemoteWebDriver driver)
 	{
